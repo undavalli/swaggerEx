@@ -9,9 +9,7 @@ public class SpringFoxController {
 	
 	@GetMapping(path="/display/{name}")
 	public String display(@PathVariable("name") String name) {
-		System.out.println("name="+name);
 		return name;
-		
 	}
 
 }
